@@ -1,0 +1,2 @@
+# do not include the node modules in Git
+**/node_modules
