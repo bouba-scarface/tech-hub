@@ -31,11 +31,6 @@ Learn more about [Third-party Security](./thirdpartysecurity)
   * **dc.services.visualstudio.com**
 * Justification/Purpose: Azure service used by SalesTim to collect anonymous performance metrics, telemetry and application logs/traces. [More infos](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses)
 
-### Microsoft Azure Traffic Manager
-* Domains/Hosts:
-  * ***atmrum.net**
-* Justification/Purpose: Azure service used by SalesTim to collect anonymous network latency measurements and apply load-balancing rules more effectively. [More infos](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-create-rum-web-pages)
-
 ### Microsoft Azure Blob Storage
 * Domains/Hosts: **stappsaprd.blob.core.windows.net**
 * Justification/Purpose: Storage used by SalesTim to store templates pictures/icons

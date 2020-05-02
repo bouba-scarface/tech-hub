@@ -24,9 +24,8 @@ The Microsoft Teams client has two main flows, one for authentication against yo
 Here is a short description of each flow:
 1. *.salestim.io for the main app, *.salestim.com for online help contents
 2. *.msecnd.net and *..visualstudio.com for performance metrics analysis
-3. *.atmrum.net for network latency analysis
-4. *.windows.net for blob cache storage
-5. *.microsoft.com for Microsoft Graph API access
+3. *.windows.net for blob cache storage
+4. *.microsoft.com for Microsoft Graph API access
 
 ## Traffic encryption
 
@@ -80,11 +79,6 @@ This information is subject to change and we recommend that you check back quart
   * **az416426.vo.msecnd.net**
   * **dc.services.visualstudio.com**
 * Justification/Purpose: Azure service used by SalesTim to collect anonymous performance metrics, telemetry and application logs/traces. [More infos](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses)
-
-### Microsoft Azure Traffic Manager
-* Domains/Hosts:
-  * ***atmrum.net**
-* Justification/Purpose: Azure service used by SalesTim to collect anonymous network latency measurements and apply load-balancing rules more effectively. [More infos](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-create-rum-web-pages)
 
 ### Microsoft Azure Blob Storage
 * Domains/Hosts: **stappsaprd.blob.core.windows.net**
