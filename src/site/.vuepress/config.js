@@ -50,7 +50,7 @@ module.exports = {
       { text: '🚀 Get Started', link: '/gettingstarted/' },
       { text: '🧙🏼‍♂️ Templates', link: '/templates/' },
       { text: '👩🏼‍💻 API', link: '/api/' },
-      { text: '🛡 Trust Center', link: '/platform/' },
+      { text: 'Trust Center', link: '/platform/' },
       {
         text: '📦 Releases',
         items: [
@@ -101,7 +101,7 @@ module.exports = {
           ]
         },
         {
-          title: '🛡 Trust Center',
+          title: 'Trust Center',
           children: [
             ['/platform/', 'Overview'],
             '/platform/supportedclients.md',
@@ -112,6 +112,7 @@ module.exports = {
             '/platform/apppermissions.md',
             '/platform/datamanagement.md',
             '/platform/securedevelopment.md',
+            '/platform/securitypolicy.md',
             '/platform/privacyandcompliance.md',
             '/platform/classification.md'
           ]
