@@ -19,7 +19,7 @@ This "standalone" package is a personal Microsoft Teams app comprised of 3 tabs 
 
 | Package name | Download link |
 |--------------|---------------|
-| SalesTim | [📥 Download](../packages/io.salestim.automation.standalone.prd.zip) |
+| SalesTim | [📥 Download](https://dist.salestim.com/packages/io.salestim.automation.standalone.prd.zip) |
 
 ::: tip
 Deployment procedure: [Install SalesTim in Microsoft Teams](https://help.salestim.com/articles/3505270-install-salestim-app-on-microsoft-teams)
@@ -29,9 +29,9 @@ Deployment procedure: [Install SalesTim in Microsoft Teams](https://help.salesti
 
 | Package name | Download link |
 |--------------|---------------|
-| 🏠 Home | [📥 Download](../packages/io.salestim.automation.targeted.home.prd.zip) |
-| 📚 Catalog | [📥 Download](../packages/io.salestim.automation.targeted.catalog.prd.zip) |
-| ⚙ Settings | [📥 Download](../packages/io.salestim.automation.targeted.settings.prd.zip) |
+| 🏠 Home | [📥 Download](https://dist.salestim.com/packages/io.salestim.automation.targeted.home.prd.zip) |
+| 📚 Catalog | [📥 Download](https://dist.salestim.com/packages/io.salestim.automation.targeted.catalog.prd.zip) |
+| ⚙ Settings | [📥 Download](https://dist.salestim.com/packages/io.salestim.automation.targeted.settings.prd.zip) |
 
 ::: tip Deployment procedure
 [Setup pinned apps](https://help.salestim.com/articles/3507463-set-up-the-home-page)

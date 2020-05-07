@@ -16,9 +16,16 @@ The following versions of SalesTim are currently being supported with security u
 
 ## Reporting a Vulnerability
 
+
 If you believe you have discovered a vulnerability in a SalesTim product or have a security incident to report, please send us a message to **[security@salestim.com](security@salestim.com)** that includes a detailed reports with reproducible steps.  
   
-If you feel the need, please use our **[PGP public key](https://keybase.io/guillaumemeyer/pgp_keys.asc)** to encrypt your communications with us.
+If you feel the need, please use our **[PGP public key](https://developers.salestim.com/assets/encryption/PUBLIC-security@salestim.com-C97EEBEE66DCB9D1D3B372659320B5DCA21CE0A4.asc)** to encrypt your communications with us.
+
+``` 
+Contact: security@salestim.com
+Preferred-Languages: en
+Encryption: https://developers.salestim.com/assets/encryption/PUBLIC-security@salestim.com-C97EEBEE66DCB9D1D3B372659320B5DCA21CE0A4.asc
+```
 
 ## SalesTim’s vulnerability disclosure policy
 We believe that vulnerability disclosure is a two-way street.  
