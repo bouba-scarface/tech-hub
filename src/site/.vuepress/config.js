@@ -98,6 +98,7 @@ module.exports = {
           title: '👩🏼‍💻 API Reference',
           children: [
             ['/api/', '👋🏼 Overview'],
+            ['/api/explorer', 'API Explorer']
           ]
         },
         {
