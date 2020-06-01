@@ -1,6 +1,6 @@
 # Data Management Practices
 
-<Classification level="public" />
+<Classification label="public" />
 
 We understand that our customers need to be confident using SalesTim, and be aware of our data collection practices.
 

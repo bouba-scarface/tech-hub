@@ -1,6 +1,6 @@
 # Infrastructure Services
 
-<Classification level="public" />
+<Classification label="public" />
 
 As a Microsoft Teams App, SalesTim relies on several "first-party" components and services such as the Microsoft Teams platform and Microsoft Azure.  
 In addition the SalesTim platform uses several "second-party" or "third-party" services, especially:

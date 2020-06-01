@@ -1,6 +1,6 @@
 # Communication & Network Security
 
-<Classification level="public" />
+<Classification label="public" />
 
 ## Network diagram
 In order to prepare your organization's network for SalesTim, here is an overview of the the different network flows involved:

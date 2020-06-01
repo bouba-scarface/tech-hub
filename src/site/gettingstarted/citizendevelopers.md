@@ -1,5 +1,5 @@
 # 🧙🏼‍♂️ Citizen Developers
-<Classification level="public" />
+<Classification label="public" />
 
 With SalesTim, you can create, manage and share teams templates through your own private corporate catalog, without any technical skill.  
 Through teams templates, end-users can create ready-to-use and full-featured teams, customized to perform a specific business activity, such as:

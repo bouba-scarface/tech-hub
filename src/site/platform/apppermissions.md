@@ -1,6 +1,6 @@
 # Microsoft Graph Permissions
 
-<Classification level="public" />
+<Classification label="public" />
 
 ## Admin-restricted permissions
 Depending on the permission type (Delegated or Application), some high-privilege permissions in the Microsoft ecosystem are set to admin-restricted.  

@@ -1,6 +1,6 @@
 # Role Based Access Control
 
-<Classification level="public" />
+<Classification label="public" />
 
 Role based access control (RBAC) functionality enables application admins to limit the permissions of some users within a team.
 

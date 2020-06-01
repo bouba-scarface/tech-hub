@@ -1,12 +1,12 @@
 # Releases
 
-<Classification level="public" />
+<Classification label="public" />
 
 ## Install from the Microsoft Teams store
 
 You can install the latest version of Salestim from the Microsoft Teams Store:  
 <a href="https://teams.microsoft.com/l/app/589748de-ec98-4616-9063-e91c629bd1a4?source=store-copy-link" target="_blank">
-![Add to Teams](/img/add-to-teams.png)
+![Add SalesTim to Microsoft Teams](https://img.shields.io/badge/Microsoft_Teams-Install_SalesTim-darkslateblue?logo=microsoft-teams&logoColor=white&style=for-the-badge)
 </a>
 
 Learn more about our [validation rings](./releases.md#validation-rings) and our [versioning strategy](./releases.md#versioning-strategy)
@@ -19,7 +19,7 @@ This "standalone" package is a personal Microsoft Teams app comprised of 3 tabs 
 
 | Package name | Download link |
 |--------------|---------------|
-| SalesTim | [📥 Download](https://dist.salestim.com/packages/io.salestim.automation.standalone.prd.zip) |
+| SalesTim Standalone | [![](https://img.shields.io/badge/Microsoft_Teams-Download_SalesTim_Standalone_Package-darkslateblue?logo=microsoft-teams&logoColor=white&style=flat)](https://dist.salestim.com/packages/io.salestim.automation.standalone.prd.zip) |
 
 ::: tip
 Deployment procedure: [Install SalesTim in Microsoft Teams](https://help.salestim.com/articles/3505270-install-salestim-app-on-microsoft-teams)
@@ -29,9 +29,9 @@ Deployment procedure: [Install SalesTim in Microsoft Teams](https://help.salesti
 
 | Package name | Download link |
 |--------------|---------------|
-| 🏠 Home | [📥 Download](https://dist.salestim.com/packages/io.salestim.automation.targeted.home.prd.zip) |
-| 📚 Catalog | [📥 Download](https://dist.salestim.com/packages/io.salestim.automation.targeted.catalog.prd.zip) |
-| ⚙ Settings | [📥 Download](https://dist.salestim.com/packages/io.salestim.automation.targeted.settings.prd.zip) |
+| SalesTim Home | [![](https://img.shields.io/badge/Microsoft_Teams-Download_SalesTim_Home_Package-darkslateblue?logo=microsoft-teams&logoColor=white&style=flat)](https://dist.salestim.com/packages/io.salestim.automation.targeted.home.prd.zip) |
+| SalesTim Catalog | [![](https://img.shields.io/badge/Microsoft_Teams-Download_SalesTim_Catalog_Package-darkslateblue?logo=microsoft-teams&logoColor=white&style=flat)](https://dist.salestim.com/packages/io.salestim.automation.targeted.catalog.prd.zip) |
+| SalesTim Settings | [![](https://img.shields.io/badge/Microsoft_Teams-Download_SalesTim_Settings_Package-darkslateblue?logo=microsoft-teams&logoColor=white&style=flat)](https://dist.salestim.com/packages/io.salestim.automation.targeted.settings.prd.zip) |
 
 ::: tip Deployment procedure
 [Setup pinned apps](https://help.salestim.com/articles/3507463-set-up-the-home-page)

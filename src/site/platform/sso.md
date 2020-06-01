@@ -1,5 +1,5 @@
 # Authentication & Single Sign On
-<Classification level="public" />
+<Classification label="public" />
 
 ## Identity Provider (IdP)
 Access to SalesTim relies 100% on Microsoft Azure Active Directory (AAD) as an IdP for authentication.  

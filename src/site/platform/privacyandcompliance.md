@@ -1,6 +1,6 @@
 # Privacy and Compliance
 
-<Classification level="public" />
+<Classification label="public" />
 
 Customer trust and data security are critical to everything we do at SalesTim.
 

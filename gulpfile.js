@@ -1,19 +1,20 @@
 'use strict'
 
 // #region DECLARATIONS
-// Dependencies
+
+// Platform Dependencies
 const os = require('os')
+
+// External Dependencies
 const gulp = require('gulp')
 const bump = require('gulp-bump')
 const git = require('gulp-git')
+
 // Variables
-const PADDING = 80
-const MODULE_TAGS = ['build']
+const PADDING = 120
 let packageInfo = require('./package') // Not declared as a const as it may be refreshed/updated durung build
 const rootFolder = './'
 // #endregion
-
-// #region PRIVATE TASKS
 
 // #region INITIALIZATION
 
@@ -44,11 +45,7 @@ const logInfos = (done) => {
   }
 }
 
-// #endregion
-
-// #region BUILD
-
-// #endregion
+// #endregion INITIALIZATION
 
 // #region PUSH
 
@@ -76,11 +73,11 @@ const pushToMaster = (done) => {
   git.push('origin', 'master', done)
 }
 
-// #endregion
+// #endregion PUSH
 
-// #endregion
 
-// #region EXPORTS PUBLIC TASKS
+// #region EXPORTS
+
 exports.infos = gulp.series(
   logInfos
 )
@@ -93,4 +90,5 @@ exports.push = gulp.series(
   commitChanges,
   pushToMaster
 )
-// #endregion
+
+// #endregion EXPORTS

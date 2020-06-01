@@ -1,5 +1,5 @@
 # 📡 Webhooks Reference
-<Classification level="public" />
+<Classification label="public" />
 
 Use webhooks to automate your Microsoft Teams use cases and improve your productivity. 
 

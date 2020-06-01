@@ -1,6 +1,6 @@
 # Known Issues
 
-<Classification level="public" />
+<Classification label="public" />
 
 In addition to this article that describes known issues with SalesTim, please refer to:
 * [Microsoft Teams Known Issues...](https://docs.microsoft.com/en-us/microsoftteams/known-issues)

@@ -1,5 +1,5 @@
 # 👩🏼‍💻 API Reference
-<Classification level="public" />
+<Classification label="public" />
 
 <div style="text-align: center;">
 <img alt="SalesTim API" src="/img/headers/api.jpg"

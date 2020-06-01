@@ -1,6 +1,6 @@
 # Success is built on trust. Trust starts with transparency
 
-<Classification level="public" />
+<Classification label="public" />
 
 <div style="text-align: center;">
 <img alt="SalesTim API" src="/img/headers/platform.jpg"

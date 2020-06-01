@@ -1,6 +1,6 @@
 # Secure Development
 
-<Classification level="public" />
+<Classification label="public" />
 
 ## Secure Development Principles
 

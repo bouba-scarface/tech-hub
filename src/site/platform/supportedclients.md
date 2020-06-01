@@ -1,6 +1,6 @@
 # Supported Clients
 
-<Classification level="public" />
+<Classification label="public" />
 
 ## Microsoft Teams clients
 SalesTim is a web application and a suite of integrated services accessible from Microsoft Teams.

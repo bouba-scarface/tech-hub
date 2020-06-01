@@ -1,6 +1,6 @@
 # Domains to whitelist
 
-<Classification level="public" />
+<Classification label="public" />
 
 We understand that our customers need to be confident that they are communicating with SalesTim in a secure environment. Domains whitelisting is one of the most effective methods of ensuring this and prevents any internet traffic intended for SalesTim from being hijacked or rerouted to a rogue website.  
 Our complete portfolio of domains are outlined below to help our customers configure their corporate web proxy.
