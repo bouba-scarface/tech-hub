@@ -1,4 +1,4 @@
-# 🧙🏼‍♂️ Citizen Developers
+# Citizen Developers
 <Classification label="public" />
 
 With SalesTim, you can create, manage and share teams templates through your own private corporate catalog, without any technical skill.  

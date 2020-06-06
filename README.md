@@ -10,11 +10,11 @@
 
 ## ABSTRACT
 
-This repository hosts the contents of your [Tech Hub](https://developers.salestim.com/) website.
+This repository hosts the contents of the [Tech Hub](https://developers.salestim.com/) website.
 
 ---
 
-## TABLE OF CONTENTS
+**TABLE OF CONTENTS**
 
 - **[A. CONTRIBUTE](#a-contribute)**
   - Get the Sources and Build
@@ -24,6 +24,7 @@ This repository hosts the contents of your [Tech Hub](https://developers.salesti
   - COMMUNICATING WITH THE TEAM
   - SECURITY POLICY
   - CODE OF CONDUCT
+  - LICENSING
 
 ---
 
@@ -75,4 +76,4 @@ This project has adopted the [SalesTim Open Source Code of Conduct](./CODE_OF_CO
 
 ### LICENSING
 
-This project is licenseced described in the [LICENSE file](./LICENSE.md).
+This project is licenseced as described in the [LICENSE file](./LICENSE.md).

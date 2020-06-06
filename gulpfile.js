@@ -31,7 +31,7 @@ const JS_FOLDER = PUBLIC_FOLDER + 'js/'
 const logInfos = (done) => {
   try {
     // Generate ASCII header using figlet
-    figlet.text('Template Store', {
+    figlet.text('Tech Hub', {
       font: 'Big',
       horizontalLayout: 'default',
       verticalLayout: 'default'
@@ -40,6 +40,7 @@ const logInfos = (done) => {
         // Log basic system and package infos
         console.info(''.padEnd(CONSOLE_PADDING, '*'))
         console.info(''.padEnd(CONSOLE_PADDING, ' '))
+        console.log('SalesTim')
         console.log(data)
         console.info('PACKAGE '.padEnd(CONSOLE_PADDING, '-'))
         console.info((' * NAME: ' + pck.name).padEnd(CONSOLE_PADDING, ' '))
@@ -79,9 +80,13 @@ const logInfos = (done) => {
  */
 const concatJs = (done) => {
   gulp.src([
-    './node_modules/msal/dist/msal.min.js'
+    './src/app/.vuepress/public/js/ga.js',
+    './src/app/.vuepress/public/js/intercom.js',
+    './node_modules/uikit/dist/js/uikit.min.js',
+    './node_modules/msal/dist/msal.min.js',
+    './src/app/.vuepress/public/js/authentication.js'
   ])
-    .pipe(concat('bundle.min.js'))
+    .pipe(concat('bundle.js'))
     .pipe(gulp.dest(JS_FOLDER)).on('end', () => {
       done()
     })

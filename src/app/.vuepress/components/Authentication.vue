@@ -17,10 +17,5 @@
       Sign Out
     </button>
 
-    <!-- importing app scripts (load order is important) -->
-    <script
-      type="text/javascript"
-      src="/js/authentication/authentication.js"
-    ></script>
   </div>
 </template>

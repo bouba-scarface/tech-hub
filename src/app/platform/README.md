@@ -2,11 +2,6 @@
 
 <Classification label="public" />
 
-<div style="text-align: center;">
-<img alt="SalesTim API" src="/img/headers/platform.jpg"
-style="width: 60%;"></img>
-</div>
-
 At SalesTim, Trust is our #1 value, and we believe that it cannot be achieved without full transparency.  
 It's especially true for security. Security through obscurity is a weak security control, and nearly always fails when it is the only control.  
 

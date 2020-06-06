@@ -1,4 +1,4 @@
-# 🦸‍♀️ IT Pros & CISO
+# IT Pros & CISO
 <Classification label="public" />
 
 At SalesTim, Trust is our #1 value, and we believe that it cannot be achieved without full transparency.  
