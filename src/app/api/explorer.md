@@ -6,7 +6,6 @@ description: "API Explorer lets you craft REST requests, adapt the HTTP request 
 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
   <div class="uk-card-media-left uk-cover-container">
     <img src="/img/headers/start.jpg" alt="" uk-cover>
-    <canvas width="300" height="200"></canvas>
   </div>
   <div>
     <div class="uk-card-body">
