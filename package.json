@@ -1,11 +1,11 @@
 {
   "name": "tech-hub",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "SalesTim Tech Hub",
   "scripts": {
     "dev": "gulp infos && node ./node_modules/vuepress/cli.js dev src/app --no-clear-screen",
     "gen-markdown": "./node_modules/@openapitools/openapi-generator-cli/bin/openapi-generator generate -i https://dist.salestim.com/api/v1.0/open-api/io.salestim.automation.api.definition.yaml -g markdown -o src/app/api/reference",
-    "gen-html2":"./node_modules/@openapitools/openapi-generator-cli/bin/openapi-generator generate -i https://dist.salestim.com/api/v1.0/open-api/io.salestim.automation.api.definition.yaml -g html2 -o src/app/.vuepress/public/apireference",
+    "gen-html2": "./node_modules/@openapitools/openapi-generator-cli/bin/openapi-generator generate -i https://dist.salestim.com/api/v1.0/open-api/io.salestim.automation.api.definition.yaml -g html2 -o src/app/.vuepress/public/apireference",
     "gen-apidoc": "npm run gen-markdown",
     "build": "gulp build && npm run gen-apidoc && node ./node_modules/vuepress/cli.js build src/app --no-cache",
     "push": "gulp push"

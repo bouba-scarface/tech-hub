@@ -6,7 +6,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#483d8b' }],
-    // ['link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.7.2/css/all.css', integrity: 'sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr', crossorigin: 'anonymous' }],
+    ['link', { rel: 'stylesheet', href: '/css/bundle.css' }],
     ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=UA-5688830-15' }],
     // Bundle
     ['script', { type: 'text/javascript', src: '/js/bundle.js' }]

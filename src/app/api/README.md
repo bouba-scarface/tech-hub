@@ -33,7 +33,7 @@ Learn more about these services in the [Key Concepts](/api/key-concepts) article
 ## Discover and try the API
 The easiest way to start exploring services available through the SalesTim API is to use our [API Explorer](/api/explorer).  
 
-The API Explorer lets you craft REST requests (with full CRUD support), adapt the HTTP request headers, and see the data responses. Check out some of these common scenarios for working with the SalesTim API (The links take you directly to the API Explorer):
+The API Explorer lets you craft REST requests, adapt the HTTP request headers, and see the data responses. Check out some of these common scenarios for working with the SalesTim API (The links take you directly to the API Explorer):
 
 | Operation | URL |
 | :---------|:----|

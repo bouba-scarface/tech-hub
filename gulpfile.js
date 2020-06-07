@@ -20,6 +20,8 @@ let pck = require(PACKAGE_FILE) // Not declared as a const as it may be refreshe
 const SRC_FOLDER = ROOT_FOLDER + 'src/'
 const PUBLIC_FOLDER = SRC_FOLDER + 'app/.vuepress/public/'
 const JS_FOLDER = PUBLIC_FOLDER + 'js/'
+const CSS_FOLDER = PUBLIC_FOLDER + 'css/'
+
 // #endregion
 
 // #region INITIALIZATION
@@ -75,7 +77,7 @@ const logInfos = (done) => {
 // #region BUILD
 
 /**
- * Concatenate public js dependencies in one file
+ * Concatenate js dependencies in one file
  * @param {function} done - Callback()
  */
 const concatJs = (done) => {
@@ -88,6 +90,20 @@ const concatJs = (done) => {
   ])
     .pipe(concat('bundle.js'))
     .pipe(gulp.dest(JS_FOLDER)).on('end', () => {
+      done()
+    })
+}
+
+/**
+ * Concatenate css dependencies in one file
+ * @param {function} done - Callback()
+ */
+const concatCss = (done) => {
+  gulp.src([
+    './node_modules/uikit/dist/css/uikit.min.css'
+  ])
+    .pipe(concat('bundle.css'))
+    .pipe(gulp.dest(CSS_FOLDER)).on('end', () => {
       done()
     })
 }
@@ -129,7 +145,8 @@ exports.infos = gulp.series(
 )
 exports.build = gulp.series(
   logInfos,
-  concatJs
+  concatJs,
+  concatCss
 )
 exports.push = gulp.series(
   logInfos,

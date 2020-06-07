@@ -17,7 +17,7 @@ This article describes the basic aspects and the keys to start working with the 
 
 ## Use API Explorer to get to know the API
 The easiest way to start exploring the data and services available through SalesTim API is to use [API Explorer](/api/explorer).  
-API Explorer lets you craft REST requests (with full CRUD support), adapt the HTTP request headers, and see the data responses.
+API Explorer lets you craft REST requests, adapt the HTTP request headers, and see the data responses.
 
 
 ## Authenticate with SalesTim API
