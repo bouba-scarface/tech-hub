@@ -122,16 +122,6 @@ module.exports = {
             '/platform/privacyandcompliance.md',
             '/platform/classification.md'
           ]
-        },
-        {
-          title: 'Releases',
-          collapsable: false,
-          sidebarDepth: 1,
-          children: [
-            ['/releases/releases.md', 'Downloads'],
-            ['/releases/knownissues.md', 'Known Issues'],
-            ['https://status.salestim.com', 'Status']
-          ]
         }
       ]
     }
