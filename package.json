@@ -1,6 +1,6 @@
 {
   "name": "tech-hub",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "SalesTim Tech Hub",
   "scripts": {
     "dev": "gulp infos && node ./node_modules/vuepress/cli.js dev src/app --no-clear-screen",

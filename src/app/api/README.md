@@ -3,14 +3,22 @@ title: "Overview of SalesTim API"
 description: "SalesTim API provides a unified programmability model that you can use to manage your Microsoft Teams environment and build powerful apps easily."
 ---
 
-# Overview of SalesTim API
-<Classification label="public" />
-
-Here at SalesTim, we know you want to concentrate on the value of your products, services, and business process, not be challenged by the complexities of integration with Microsoft Teams.
-
-SalesTim API provides a unified programmability model that you can use to manage your Microsoft Teams environment and build powerful apps easily.  
-
-Our APIs will take care of the underlying technical complexity, leaving you free to take care of your real value proposition.
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+  <div class="uk-card-media-left uk-cover-container">
+    <img src="/img/headers/api.jpg" alt="" uk-cover>
+    <canvas width="300" height="200"></canvas>
+  </div>
+  <div>
+    <div class="uk-card-body">
+      <h3>Overview of SalesTim API</h3>
+      <p>
+      Here at SalesTim, we know you want to concentrate on the value of your products, services, and business process, not be challenged by the complexities of integration with Microsoft Teams.
+      SalesTim API provides a unified programmability model that you can use to manage your Microsoft Teams environment and build powerful apps easily.  
+      Our APIs will take care of the underlying technical complexity, leaving you free to take care of your real value proposition.
+      </p>
+    </div>
+  </div>
+</div>
 
 ## What can you do with SalesTim API?
 SalesTim API is used in a lot of different industries to automate Microsoft Teams governance and improve business process across the organization, but the following examples are the most common as of today:
