@@ -63,9 +63,9 @@ module.exports = {
     // Navbar: Horizontal navigation
     nav: [
       { text: 'No-Code Templates', link: '/nocode-templates/' },
-      { text: 'Template Store', link: 'https://store.salestim.com' },
       { text: 'API & Webhooks', link: '/api/' },
-      { text: 'Trust Center', link: '/platform/' }
+      { text: 'Trust Center', link: '/platform/' },
+      { text: 'Template Store', link: 'https://store.salestim.com' }
     ],
 
     // Sidebar options
