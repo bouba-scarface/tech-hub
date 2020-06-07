@@ -21,11 +21,11 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**List**](..//Models/CatalogTemplate.md)
+[**List**](..//Models/object.md)
 
 ### Authorization
 
-[bearerAuth](../README.md#bearerAuth), [pluginId](../README.md#pluginId), [pluginSecret](../README.md#pluginSecret)
+[appId](../README.md#appId), [appSecret](../README.md#appSecret), [bearerAuth](../README.md#bearerAuth)
 
 ### HTTP request headers
 
@@ -34,7 +34,7 @@ This endpoint does not need any parameter.
 
 <a name="installTemplateFromStore"></a>
 # **installTemplateFromStore**
-> CatalogTemplate installTemplateFromStore(inlineObject)
+> Object installTemplateFromStore(templateIdentifier)
 
 Install a template from the public template store to your corporate catalog
 
@@ -44,11 +44,11 @@ Install a template from the public template store to your corporate catalog
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **inlineObject** | [**InlineObject**](..//Models/InlineObject.md)|  |
+ **templateIdentifier** | [**TemplateIdentifier**](..//Models/TemplateIdentifier.md)| The template to be installed |
 
 ### Return type
 
-[**CatalogTemplate**](..//Models/CatalogTemplate.md)
+[**Object**](..//Models/object.md)
 
 ### Authorization
 

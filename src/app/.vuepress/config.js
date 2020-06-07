@@ -39,28 +39,33 @@ module.exports = {
     // Footer options
     lastUpdated: 'Last Updated',
 
+    // Smooth scrolling
+    smoothScroll: true,
+
+    // GitHub options
+    // Assumes GitHub. Can also be a full GitLab url.
+    repo: 'salestim',
+    // Customising the header label
+    // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
+    repoLabel: 'Open Source',
+    // Optional options for generating "Edit this page" link
+    //   if your docs are in a different repo from your main project:
+    docsRepo: 'salestim/tech-hub',
+    //   if your docs are not at the root of the repo:
+    docsDir: 'src/app',
+    //   if your docs are in a specific branch (defaults to 'master'):
+    docsBranch: 'master',
+    //   defaults to false, set to true to enable
+    editLinks: true,
+    //  custom text for edit link. Defaults to "Edit this page"
+    editLinkText: 'Improve this page!',
+
     // Navbar: Horizontal navigation
     nav: [
-      { text: 'Get Started', link: '/' },
-      { text: 'No-Code Templates', link: '/templates/' },
-      { text: 'API', link: '/api/' },
-      { text: 'Trust Center', link: '/platform/' },
-      {
-        text: 'Releases',
-        items: [
-          { text: 'Downloads', link: '/releases/releases.md' },
-          { text: 'Known Issues', link: '/releases/knownissues.md' },
-          { text: 'Status', link: 'https://status.salestim.com' }
-        ]
-      },
-      {
-        text: 'More',
-        items: [
-          { text: 'GitHub', link: 'https://github.com/SalesTim' },
-          { text: 'Help Center', link: 'https://help.salestim.com' },
-          { text: 'Website', link: 'https://www.salestim.com' }
-        ]
-      }
+      { text: 'No-Code Templates', link: '/nocode-templates/' },
+      { text: 'Template Store', link: 'https://store.salestim.com' },
+      { text: 'API & Webhooks', link: '/api/' },
+      { text: 'Trust Center', link: '/platform/' }
     ],
 
     // Sidebar options
@@ -72,32 +77,37 @@ module.exports = {
     sidebar: {
       '/': [
         {
-          title: 'Get Started',
-          children: [
-            ['/', 'Overview'],
-            '/gettingstarted/citizendevelopers.md',
-            '/gettingstarted/developers.md',
-            '/gettingstarted/itpros.md'
-          ]
-        },
-        {
           title: 'No-Code Templates',
+          collapsable: true,
+          sidebarDepth: 1,
           children: [
-            ['/templates/', 'Get Started'],
-            '/templates/templatesnamingconventions.md',
-            '/templates/templatesaudiencetargeting.md'
+            ['/nocode-templates/', 'Get Started'],
+            '/nocode-templates/naming-conventions.md',
+            '/nocode-templates/audience-targeting.md'
           ]
         },
         {
           title: 'API',
+          collapsable: true,
+          sidebarDepth: 1,
           children: [
-            ['/api/', 'Getting Started'],
-            ['/api/explorer/', 'API Explorer'],
-            ['https://github.com/SalesTim/tech-hub/tree/master/src/app/api/reference/', 'API Reference']
+            ['/api/', 'Overview'],
+            ['/api/key-concepts', 'Key Concepts'],
+            ['/api/getting-started', 'Getting Started'],
+            ['/api/best-practices', 'Best Practices'],
+            ['/api/explorer', 'API Explorer'],
+            ['/api/use-sdks', 'Use SDKs'],
+            ['/api/use-postman', 'Use Postman'],
+            ['/api/use-power-platform', 'Use Power Platform'],
+            ['/api/throttling', 'Throttling'],
+            ['/api/reference/', 'REST API Reference'],
+            ['/api/versions', 'Versions']
           ]
         },
         {
           title: 'Trust Center',
+          collapsable: true,
+          sidebarDepth: 1,
           children: [
             ['/platform/', 'Overview'],
             '/platform/supportedclients.md',
@@ -111,6 +121,16 @@ module.exports = {
             '/platform/securitypolicy.md',
             '/platform/privacyandcompliance.md',
             '/platform/classification.md'
+          ]
+        },
+        {
+          title: 'Releases',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            ['/releases/releases.md', 'Downloads'],
+            ['/releases/knownissues.md', 'Known Issues'],
+            ['https://status.salestim.com', 'Status']
           ]
         }
       ]

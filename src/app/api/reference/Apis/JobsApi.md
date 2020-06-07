@@ -28,7 +28,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[pluginId](../README.md#pluginId), [pluginSecret](../README.md#pluginSecret)
+[appId](../README.md#appId), [appSecret](../README.md#appSecret)
 
 ### HTTP request headers
 
@@ -55,7 +55,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[pluginId](../README.md#pluginId), [pluginSecret](../README.md#pluginSecret)
+[appId](../README.md#appId), [appSecret](../README.md#appSecret)
 
 ### HTTP request headers
 

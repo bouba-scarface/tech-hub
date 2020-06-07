@@ -79,7 +79,7 @@ function signIn () {
 
       if (myMSALObj.getAccount()) {
         seeProfile()
-        getSalesTimPlugIns()
+        getSalesTimApps()
       }
     }).catch(error => {
       console.log(error);
@@ -124,7 +124,7 @@ function seeProfile () {
   }
 }
 
-function getSalesTimPlugIns () {
+function getSalesTimApps () {
 
 }
 
@@ -134,8 +134,8 @@ function getSalesTimPlugIns () {
 
 // Keys:
 // - bearerAuth
-// - pluginId
-// - pluginSecret
+// - appId
+// - appSecret
 function setKeyValue (authDefinitionKey, apiKeyValue) {
   ui.preauthorizeApiKey(authDefinitionKey, apiKeyValue)
   // ui.preauthorizeApiKey('bearerAuth','aaa')
