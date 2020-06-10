@@ -3,9 +3,13 @@ permalink: /
 sidebar: false
 ---
 
+<br />
+<br />
 
 <h1 class="uk-heading-medium uk-text-center">Integrate with SalesTim. Grow your business.</h1>
 <p class="uk-text-large uk-text-center">Build apps for over 75M daily active Microsoft Teams users, or just for your own organization.</p>
+
+<br />
 
 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
   <div class="uk-card-media-left uk-cover-container">

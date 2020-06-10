@@ -17,12 +17,27 @@
 <script>
 export default {
   mounted () {
-    console.info('Mounted')
-    // Retreive prop value
+    console.debug('SwaggerViewer Mounted')
     var pOpenApiFileUrl = this.openApiFileUrl
-    if (window.ui) {
-      loadUi(pOpenApiFileUrl)
+
+    var s = document.createElement('script')
+    s.setAttribute(
+      'src',
+      'https://unpkg.com/swagger-ui-dist@3/swagger-ui-bundle.js'
+    )
+    s.onload = function () {
+      var t = document.createElement('script')
+      t.setAttribute(
+        'src',
+        'https://unpkg.com/swagger-ui-dist@3/swagger-ui-standalone-preset.js'
+      )
+      t.onload = function () {
+        loadUi(pOpenApiFileUrl)
+      }
+      document.head.appendChild(t)
     }
+    document.head.appendChild(s)
+
     window.onload = function () {
       loadUi(pOpenApiFileUrl)
     }

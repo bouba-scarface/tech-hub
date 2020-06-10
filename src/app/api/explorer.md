@@ -2,17 +2,7 @@
 title: "SalesTim API Explorer"
 description: "API Explorer lets you craft REST requests, adapt the HTTP request headers, and see the data responses."
 ---
-
-<div class="uk-card uk-card-default uk-grid-collapse uk-margin" uk-grid>
-  <div>
-    <div class="uk-card-body">
-      <h3>API Explorer</h3>
-      <p>
-      API Explorer lets you craft REST requests, adapt the HTTP request headers, and see the data responses. Experiment with new APIs before you integrate them into your application.
-      </p>
-    </div>
-  </div>
-</div>
+# API Explorer
 
 <Authentication />
 

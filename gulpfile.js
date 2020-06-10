@@ -86,7 +86,7 @@ const concatJs = (done) => {
     './src/app/.vuepress/public/js/intercom.js',
     './node_modules/uikit/dist/js/uikit.min.js',
     './node_modules/msal/dist/msal.min.js',
-    './src/app/.vuepress/public/js/authentication.js'
+    './node_modules/moment/min/moment.min.js'
   ])
     .pipe(concat('bundle.js'))
     .pipe(gulp.dest(JS_FOLDER)).on('end', () => {

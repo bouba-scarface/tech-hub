@@ -31,10 +31,10 @@ module.exports = {
     logo: '/color.png',
 
     // Algolia search
-    algolia: {
-      apiKey: 'a108a2d4f0180bd3f301ba9047a897f7',
-      indexName: 'salestimhelpcenter'
-    },
+    // algolia: {
+    //   apiKey: 'a108a2d4f0180bd3f301ba9047a897f7',
+    //   indexName: 'salestimhelpcenter'
+    // },
 
     // Footer options
     lastUpdated: 'Last Updated',
@@ -64,6 +64,7 @@ module.exports = {
     nav: [
       { text: 'No-Code Templates', link: '/nocode-templates/' },
       { text: 'API & Webhooks', link: '/api/' },
+      { text: 'Explorer', link: '/api/explorer' },
       { text: 'Trust Center', link: '/platform/' },
       { text: 'Template Store', link: 'https://store.salestim.com' }
     ],
