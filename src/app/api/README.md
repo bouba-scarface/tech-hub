@@ -54,7 +54,7 @@ Note: All URIs are relative to `https://api.salestim.io/v1.0`
 In addition to the REST endpoints, you can use the SalesTim API through:
 - Our [API SDKs](/api/use-sdks) available for multiple languages and platforms
 - A [Postman Collection](/api/use-postman) that you can use from your own desktop.
-- [Power Platform](/api/use-power-platform) as a custom connector to use in your `PowerApps` apps and `PowerAutomate` flows.
+- [Power Platform](/nocode/power-platform) as a custom connector to use in your `PowerApps` apps and `PowerAutomate` flows.
 
 ## Learn More
 For more information about SalesTim API:

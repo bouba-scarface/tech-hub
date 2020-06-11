@@ -26,7 +26,6 @@ Class | Method | HTTP request | Description
 ## Documentation for Models
 
  - [App](.//Models/App.md)
- - [AppTemplateConfiguration](.//Models/AppTemplateConfiguration.md)
  - [Job](.//Models/Job.md)
  - [ProvisioningRequest](.//Models/ProvisioningRequest.md)
  - [ProvisioningRequestOnBehalfOfRequester](.//Models/ProvisioningRequestOnBehalfOfRequester.md)

@@ -62,7 +62,7 @@ module.exports = {
 
     // Navbar: Horizontal navigation
     nav: [
-      { text: 'No-Code Templates', link: '/nocode-templates/' },
+      { text: 'No-Code', link: '/nocode/' },
       { text: 'API & Webhooks', link: '/api/' },
       { text: 'Explorer', link: '/api/explorer' },
       { text: 'Trust Center', link: '/platform/' },
@@ -78,17 +78,18 @@ module.exports = {
     sidebar: {
       '/': [
         {
-          title: 'No-Code Templates',
+          title: 'No-Code Solutions',
           collapsable: true,
           sidebarDepth: 1,
           children: [
-            ['/nocode-templates/', 'Get Started'],
-            '/nocode-templates/naming-conventions.md',
-            '/nocode-templates/audience-targeting.md'
+            ['/nocode/', 'Get Started'],
+            ['/nocode/power-platform.md', 'Power Platform'],
+            ['/nocode/naming-conventions.md', 'Naming conventions'],
+            ['/nocode/audience-targeting.md', 'Audience Targeting']
           ]
         },
         {
-          title: 'API',
+          title: 'API & Webhooks',
           collapsable: true,
           sidebarDepth: 1,
           children: [
@@ -99,7 +100,6 @@ module.exports = {
             ['/api/explorer', 'API Explorer'],
             ['/api/use-sdks', 'Use SDKs'],
             ['/api/use-postman', 'Use Postman'],
-            ['/api/use-power-platform', 'Use Power Platform'],
             ['/api/throttling', 'Throttling'],
             ['/api/reference/', 'REST API Reference'],
             ['/api/versions', 'Versions']

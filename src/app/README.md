@@ -18,13 +18,13 @@ sidebar: false
   </div>
   <div>
     <div class="uk-card-body">
-      <h3>No-Code Microsoft Teams Templates</h3>
+      <h3>No-Code Solutions and Teams Templates</h3>
       <p>
       With the SalesTim Platform, you can automate your business process with Microsoft Teams by creating powerful teams templates without any technical skills.
       <br /><br />
-      <a href="/nocode-templates/">
+      <a href="/nocode/">
         <button class="uk-button uk-button-secondary">
-          <span class="">Create No-Code Templates</span>
+          <span class="">Create No-Code Solutions</span>
         </button>
       </a>
       </p>
